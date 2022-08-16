@@ -1,0 +1,11 @@
+target/
+.idea
+bin/
+.classpath
+.project
+.settings/
+sessions/
+x-paths.sh
+x-paths.txt
+zapresult.html
+allure-results/

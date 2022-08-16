@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Allure TestNG Suite Example" verbose="1" thread-count="1" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="com.example.test.utils.Listeners.TestListener"/>
+    </listeners>
+    <test name="Allure TestNG Test">
+    <classes>
+        <class name="com.example.test.Launch"/>
+    </classes>
+</test>
+</suite>
